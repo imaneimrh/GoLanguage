@@ -1,0 +1,29 @@
+package main
+
+import "fmt"
+
+func main() {
+	var grade float64;
+	var average float64;
+	var sum float64;
+
+	for i := 0; i < 5; i++ {
+		fmt.Printf("Please, enter grade %d (from 0 to 100): ", i+1)
+		fmt.Scanf(&grade)
+		switch grade {
+		case grade < 0:
+			fmt.Println("Grade can't be less than 0")
+			i--
+			continue
+		case grade > 100:
+			fmt.Println("Grade can't be more than 100")
+			i--
+			continue
+		default:
+			sum += grade
+		}
+
+	}
+	average = sum / 5
+	fmt.Println("The average grade is: ", average)
+}
