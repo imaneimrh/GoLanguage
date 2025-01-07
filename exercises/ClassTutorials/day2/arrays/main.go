@@ -4,7 +4,7 @@ import (
 	"log"
 )
 
-func mainy() {
+func main1() {
 	numbers := [5]int{17, 16, 15, 18, 14}
 	slice := []int{}
 	for i := 0; i < len(numbers); i++ {
