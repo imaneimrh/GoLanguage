@@ -119,7 +119,7 @@ This project is a RESTful web application that manages authors, books, customers
 ---
 
 ## **Instructions for the Professor**
-I have included a testing file with example json data to use when working with postman
+I have included a TesTing file with example json data to use when working with postman in the projects directory, it handles these steps :
 1. **Start the Application**:
    - Run:
      ```bash
